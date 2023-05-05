@@ -1,5 +1,5 @@
 <template>
-    
+    <h1>Q<span>uadrante-</span>2</h1>
     <Container />
 </template>
 <script>
@@ -28,4 +28,19 @@ export default {
     display: flex;
   }
   
+</style>
+<style scoped>
+  h1{
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+    margin-top: 0;
+    color: white;
+    text-shadow: 3px 1px black;
+    padding: 0.5em;
+    border-radius: 5px;
+    text-align: center;
+  }
+  span{
+    display: none;
+  }
 </style>
