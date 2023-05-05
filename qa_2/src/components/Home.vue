@@ -2,7 +2,7 @@
     <div id="container">
     <router-link to="/Oq">
         <div class="temas">
-            <p>O que é?</p>
+            <p>Como Funciona?</p>
             
         </div>
     </router-link>

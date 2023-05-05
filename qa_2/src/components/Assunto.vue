@@ -1,10 +1,10 @@
 <template>
     <router-link to="/">
         <div v-if="Oque">
-            <div class="Container-assunto" >
-                <h2>O que é?</h2>
+            <div class="Container-assunto-Funciona" >
+                <h2>Como Funciona?</h2>
                     <div class="text">
-                        <p>É um conjunto de ferramentas de teste de software com alta capacidade de execução de testes, mas pouca ou nenhuma habilidade em gerenciamento de testes. Essas ferramentas são conhecidas como ferramentas de automação de teste ou ferramentas de teste funcional.</p>
+                        <p>O segundo quadrante realiza testes que validam o comportamento do sistema (BDD), seus testes são focados em itens que são importantes para o cliente e para o usuarío final, esses testes podem ser automaticos ou manuais e verificam se as funcionalidades do sistemas estão  operando corretamente, que são realizados durante a produção do sistema e após sua finalização.</p>
                     </div>
             </div>
         </div>
@@ -17,7 +17,7 @@
                         <div id="coluna-esquerda">
                             <h3>Vantagens</h3>
                             <ul>
-                                <li>Redução de custos e de testes</li>
+                                <li>Redução de custos e de testes em geral</li>
                                 <li>Automatização de testes de regressão</li>
                                 <li>Aumento da eficiência da equipe de desenvolvimento.</li>
                             </ul>
@@ -106,6 +106,17 @@
         border-radius: 20px;
         
     }
+    .Container-assunto-Funciona{
+        height: 200px;
+        background-color: antiquewhite;
+        min-width: 580px;
+        max-width: 700px;
+        min-height: 420px;
+        padding: 30px;
+        border: gray solid 2px;
+        border-radius: 20px;
+        
+    }
     
     .text{
         color: rgb(85, 91, 97);
@@ -121,17 +132,17 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    text-align: justify;
+    text-align: left;
     width: 100%;
     }
   
     #coluna-esquerda {
-        width: 48%;
-        padding: 15px;
+        width: 50%;
+        padding: 10px;
     }
   
     #coluna-direita {
-        width: 48%;
+        width: 50%;
         padding: 10px;
     }
     h3{
